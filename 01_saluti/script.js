@@ -2,19 +2,17 @@
 
 const userName = 'Mario';
 
+
+// Dichiara la funzione qui.
+
 function stringa (nome){
     return `Ciao ${nome}`
 }
 
-let saluto = stringa(userName)
-console.log(saluto)
-
-
-// Dichiara la funzione qui.
-
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+let saluto = stringa(userName)
+console.log(saluto)
 
 //Risultato atteso se si passa 'Mario': // ciao Mario

@@ -2,6 +2,13 @@
 
 const userName = 'Mario';
 
+function stringa (nome){
+    return `Ciao ${nome}`
+}
+
+let saluto = stringa(userName)
+console.log(saluto)
+
 
 // Dichiara la funzione qui.
 
